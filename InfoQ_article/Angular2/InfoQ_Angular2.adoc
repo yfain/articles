@@ -1,13 +1,12 @@
 = A High Level Overview of Angular 2
 
-AngularJS is by far the most popular JavaScript framework for creating Web applications. As per Brad Green, the engineering director at Google, 1.3M developers use AngularJS and 300K are already using soon to be released Angular 2. After working with Angular 2 for the last 10 months I believe it'll have an effect in JavaScript community similar to what Spring framework did for Java. In this article I'll give you a high-level overview of the Angular 2 framework. 
+AngularJS is by far the most popular JavaScript framework for creating Web applications. As per Brad Green, the engineering director at Google, 1.3M developers use AngularJS and 300K are already using the soon to be released Angular 2. After working with Angular 2 for the last 10 months I believe its effect on the JavaScript community will be similar to what Spring framework did for Java. In this article I'll give you a high-level overview of the Angular 2 framework.
 
-In the end of 2014 Google announced that Angular 2 will be a complete re-write of AngularJS, and they even created a new language AtScript that was meant to be used for writing Angular 2. But after Microsoft has agreed to add support of decorators (a.k.a. annotations) to TypeScript, it became the language for development of the Angular 2 framework as well as the recommended language for developing applications with this framework. 
-You can also develop Angular 2 apps in JavaScript (both ECMAScript 5 and 6) and in Dart.
+In the end of 2014 Google announced that Angular 2 would be a complete re-write of AngularJS, and they even created a new language "AtScript" that was meant to be used for writing Angular 2. But then Microsoft agreed to add support for decorators (a.k.a. annotations) to TypeScript, and it became the language of choice for development of the Angular 2 framework tself, as well as the recommended language for developing applications with this framework. You can also develop Angular 2 apps in JavaScript (both ECMAScript 5 and 6) and in Dart.
 
-The Angular team took yet another Microsoft's product - the library of reactive JavaScript extensions RxJS, which is integrated into the framework.
+The Angular team also borrowed another Microsoft product - RxJS - the library of reactive JavaScript extensions, and integrated it into Angular 2.
 
-Angular 2 is not an MVC, but a component-based framework. An application is a tree of the loosely coupled components. For example, the screenshot below shows a landing page of a sample online auction application that was initially prototyped as a collection of Navbar, Search, Carousel, Product, and Footer components.
+Angular 2 is not an MVC framework, but rather a component-based framework. An Angular 2 application is a tree of loosely coupled components. For example, the screenshot below shows the landing page for a sample online auction application that was initially prototyped as a collection of Navbar, Search, Carousel, Product, and Footer components.
 
 [[FIG1-1]]
 image::img/ch2_auction_home_page_components.png[] 
